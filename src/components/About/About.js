@@ -5,7 +5,7 @@ import Man from '../../image/man.png'
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='top'>
         <div>
           <h1>About Us</h1>

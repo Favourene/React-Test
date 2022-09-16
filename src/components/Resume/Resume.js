@@ -4,7 +4,7 @@ import Tick from '../../image/tick.png'
 
 function Resume() {
   return (
-    <div className='resume'>
+    <div className='resume' id='experience'>
       <div className='top'>
         <div>
           <h1>Resume</h1>

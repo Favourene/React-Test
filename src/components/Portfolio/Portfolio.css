@@ -21,7 +21,6 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
 }
 .portfolio .tab div {
@@ -62,17 +61,18 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .portfolio .wrapper div {
+  /* .portfolio .wrapper div {
     width: 49%;
     margin-bottom: 30px;
+  } */
+  .portfolio .tab {
+    overflow-x: auto;
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 600px) {
   .portfolio .top div {
     width: 45%;
-  }
-  .portfolio .tab {
-    justify-content: space-evenly;
   }
   .portfolio .tab div {
     font-size: 15px;

@@ -6,7 +6,7 @@ import Send from '../../image/send.png'
 
 function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
       <div className='top'>
         <div>
           <h1>Get in Touch</h1>

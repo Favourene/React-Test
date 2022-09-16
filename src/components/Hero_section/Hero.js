@@ -8,7 +8,7 @@ import Bg from '../../image/bg.png'
 
 function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
       <div className='hero_wrap'>
         <div className='left'>
           <h1>Innovative Solution Taliored to your Business need</h1>
@@ -18,7 +18,9 @@ function Hero() {
             business growth through strategic financial advisory, investment
             business and human resource planning and management.​
           </p>
-          <button>Get in touch</button>
+          <a href='#contact'>
+            <button>Get in touch</button>
+          </a>
           <div className='icons'>
             <img src={Behance} alt='' />
             <img src={Dribble} alt='' />
@@ -26,8 +28,8 @@ function Hero() {
           </div>
         </div>
         <div className='right'>
-          <img src={HeroImg} alt='' className='heroimg'/>
-          <img src={Bg} alt="" className='bg'/>
+          <img src={HeroImg} alt='' className='heroimg' />
+          <img src={Bg} alt='' className='bg' />
         </div>
       </div>
     </div>

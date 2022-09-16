@@ -6,7 +6,7 @@ import PortfolioImg from '../../image/portfolio.png'
 function Portfolio() {
   const [portfolioTab, setPortfolioTab] = useState('all')
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='portfolio'>
       <div className='top'>
         <div>
           <h1>Portfolio</h1>
@@ -46,8 +46,8 @@ function Portfolio() {
         </div>
       </div>
       <div className='wrapper'>
-        {[...Array(3)].map((item) => (
-          <div>
+        {[...Array(3)].map((item, i) => (
+          <div key={i + 1}>
             <img src={PortfolioImg} alt='' />
           </div>
         ))}
