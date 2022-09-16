@@ -1,0 +1,63 @@
+.resume {
+  padding: 0 15px 100px 15px;
+}
+.resume .top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.resume .top div {
+  width: 13%;
+}
+.resume .top div h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.resume .top div img {
+  width: 100%;
+}
+.resume .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.resume .wrapper .left {
+  border-left: 5px solid #fce82f;
+  padding-left: 30px;
+}
+.resume .wrapper .left .card {
+  padding-bottom: 45px;
+}
+.resume .wrapper h1 {
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 24px;
+}
+.resume .wrapper h3 {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 12px;
+}
+.resume .wrapper p {
+  font-weight: 500;
+  font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .resume .top div {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .resume .top div {
+    width: 45%;
+  }
+  .resume .wrapper .left:nth-child(1) {
+    padding-bottom: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .resume .top div {
+    width: 50%;
+  }
+}

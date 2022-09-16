@@ -1,0 +1,81 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.hero .hero_wrap {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.hero .hero_wrap .left {
+  width: 46%;
+  padding-top: 30px;
+}
+.hero .hero_wrap .left h1 {
+  font-weight: 700;
+  font-size: 35px;
+  width: 70%;
+  line-height: 44px;
+  padding-bottom: 25px;
+}
+.hero .hero_wrap .left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 90%;
+  padding-bottom: 30px;
+}
+.hero .hero_wrap .left .icons {
+  display: flex;
+  padding-top: 28px;
+}
+.hero .hero_wrap .left .icons img {
+  width: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.hero .hero_wrap .right {
+  width: 46%;
+  position: relative;
+}
+.hero .hero_wrap .right .bg {
+  margin-top: 30px;
+  max-width: 450px;
+  width: 100%;
+}
+.hero .hero_wrap .right .heroimg {
+  max-width: 440px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+}
+@media screen and (max-width: 1000px) {
+  .hero {
+    padding-top: 100px;
+  }
+  .hero .hero_wrap .left {
+    width: 100%;
+    text-align: center;
+  }
+  .hero .hero_wrap .left h1 {
+    width: 100%;
+    font-size: 25px;
+  }
+  .hero .hero_wrap .left p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .hero .hero_wrap .left .icons {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero .hero_wrap .right {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,79 @@
+.about {
+  padding: 0 15px 100px 15px;
+}
+.about .top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.about .top div {
+  width: 13%;
+}
+.about .top div h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.about .top div img {
+  width: 100%;
+}
+.about .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.about .wrapper .left {
+  width: 45%;
+}
+.about .wrapper .left img {
+  width: 100%;
+}
+.about .wrapper .right {
+  padding-top: 40px;
+  width: 50%;
+}
+.about .wrapper .right h1 {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+.about .wrapper .right p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  width: 70%;
+  padding-bottom: 20px;
+}
+.about .wrapper .right button {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about .top div {
+    width: 25%;
+  }
+  .about .wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .about .wrapper .left {
+    width: 100%;
+  }
+  .about .wrapper .right {
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .about .wrapper .right p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about .top div {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about .top div {
+    width: 50%;
+  }
+}
