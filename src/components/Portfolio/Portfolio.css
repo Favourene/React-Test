@@ -13,6 +13,7 @@
 .portfolio .top div h1 {
   font-weight: 700;
   font-size: 30px;
+  white-space: nowrap;
 }
 .portfolio .top div img {
   width: 100%;

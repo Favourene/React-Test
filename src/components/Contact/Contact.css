@@ -13,6 +13,7 @@
 .contact .top div h1 {
   font-weight: 700;
   font-size: 30px;
+  white-space: nowrap;
 }
 .contact .top div img {
   width: 100%;
