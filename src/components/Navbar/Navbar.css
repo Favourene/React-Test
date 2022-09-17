@@ -91,6 +91,10 @@
   }
   .navbar .logo {
     padding-left: 20px;
+    padding-top: 20px;
+  }
+  .navbar .logo img {
+    width: 130px;
   }
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
