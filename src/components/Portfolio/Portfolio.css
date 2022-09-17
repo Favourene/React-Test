@@ -8,7 +8,7 @@
   padding-bottom: 50px;
 }
 .portfolio .top div {
-  width: 13%;
+  width: 154px;
 }
 .portfolio .top div h1 {
   font-weight: 700;
@@ -56,34 +56,17 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
-  .portfolio .top div {
-    width: 25%;
-  }
-}
 @media screen and (max-width: 800px) {
-  /* .portfolio .wrapper div {
-    width: 49%;
-    margin-bottom: 30px;
-  } */
   .portfolio .tab {
     overflow-x: auto;
     justify-content: flex-start;
   }
 }
 @media screen and (max-width: 600px) {
-  .portfolio .top div {
-    width: 45%;
-  }
   .portfolio .tab div {
     font-size: 15px;
   }
   .portfolio .wrapper div {
     width: 100%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .portfolio .top div {
-    width: 50%;
   }
 }
